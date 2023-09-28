@@ -148,15 +148,19 @@ def get_config(filename):
                 dec_strings.append(out)
             except:
                 continue
-
+    out_strings = []
     if not args.allstrings:
         for string in dec_strings:
             if len(string) > 12:
-                if "http" in string:
+                if ("http" in string) or (".com" in string):
                     if "dyn.com" not in string:
                         if "ipify.org" not in string:
-                            return string
-                            
+                            out_strings.append(string)
+                            #return string
+    if not args.allstrings:
+        return out_strings
+
+    
     if args.allstrings:
         return dec_strings
     
