@@ -14,7 +14,7 @@
     146f7c98ee50fd6022a139ec822b4a50b906fe141695c3bd479f3d90e3ecbe15
     16a976bb432be2baaaa0f6d32dbcbb00b823746a35561e3e8708bf0312515ed4
     
-    Usage:
+    Usage: (Assume dnlib is inside current directory)
     Print C2: agentTesla-config-extractor.py -f <filename> 
     Print all strings: agentTesla-config-extractor.py -f <filename> --allstrings True
 
