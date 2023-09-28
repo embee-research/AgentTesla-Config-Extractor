@@ -4,6 +4,8 @@
     
     Author: Matthew @Embee_research
     Twitter: @embee_research
+
+    Inspiration: https://n1ght-w0lf.github.io/tutorials/dotnet-string-decryptor
     
     Sample Hashes (More at end of script)
     
